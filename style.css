@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+html {
+    box-sizing: border-box;
+    background-color: rgba(48, 183, 169, 0.817);
+    line-height: 1.5em;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(35, 189, 99, 0.833);
+    margin: 50px auto;
+    padding: 5%;
+    box-shadow: 10px 10px 10px 10px rgba(0.50,0.50,0.50,0.50);
+}
+
+main {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    padding: 5%;
+    box-shadow: 10px 10px 10px 10px rgba(0.50,0.50,0.50,0.50);
+    max-width: 500px;
+    
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1.2px;
+}
+
+footer {
+    text-align: center;
+}
